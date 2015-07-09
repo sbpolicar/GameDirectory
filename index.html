@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="style.css" rel="stylesheet">
+  <title>Historian Battle!</title>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="buttonDiv hide-on-click text-center">
+    <button type="submit" class="start-button padder"></button>
+  </div>
+
+
+  <div id="gameboard" class=" container wrap padder">
+    <div class="row pull-center">
+      <div class="pull-center col-md-12"></div>
+    <div class="pull-left progressbar"></div>
+    <div class="pull-right progressbar"></div>
+    </div>
+    <span class="row row-left pull-left">
+    <span class="under row-left ">
+		</span>
+	<span class="under row-left ">
+		</span>
+	<span class="under row-left ">
+		</span>
+	<span class="under row-right">
+		</span>
+	<span class="under row-right">
+		</span>
+	<span class="under row-right">
+		</span>
+	</span>
+    <div class="text-center col-md-5 pull-center marge move-down">
+    <!-- <img src="title.png" class="text-center title-margin"> -->
+    <h1>Hints<p class="smaller text-muted">The first hint won't count against you but<br>
+    remember that hints will deduct from your score.</p></h1>
+      <div id="accordion" class="marge">
+  <h3>Free Hint</h3>
+  <div class="hints">
+    <p id="hint1">
+   
+    </p>
+  </div>
+  <h3>Hint -1</h3>
+  <div class="hints">
+    <p id="hint2">
+   	
+    </p>
+  </div>
+  <h3>Hint -2</h3>
+  <div class="hints">
+    <p id="hint3">
+    
+    </p>
+  </div>
+  <h3>Hint -3</h3>
+  <div class="hints">
+    <p id="hint4">
+   
+    </p>
+  </div>
+</div>
+
+  <form >
+  	<div class="form-group">
+  		<input id="guess-form" type="text" class="form-control col-xs-1 text-center" value="" placeholder="Enter your best Guess! You only get one!">
+  	</div>
+  	<div class="form-group padder">
+  		<input type="submit" class=" text-center btn btn-default" value="Guess!">
+  	</div>
+  </form>
+    </div>
+    <span class="row row-right pull-right">
+    <span class="under row-right">
+		</span>
+	<span class="under row-right">
+		</span>
+	<span class="under row-right">
+		</span>
+	<span class="under row-right">
+		</span>
+	<span class="under row-right">
+		</span>
+	<span class="under row-right">
+		</span>			
+		</span>
+  </div>
+</body>
+
+</html>

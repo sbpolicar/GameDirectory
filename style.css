@@ -1,0 +1,140 @@
+html{
+	border: dotted 35px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 -100px;
+   	background-image: url('background.jpg');
+   	background-size: 10% 250%;
+   	background-position: center;
+   	/*background-repeat: no-repeat;*/
+}
+
+
+body{
+	margin: 0 auto;
+    width: auto;
+    font-family: applegothic;
+    border: 5px dotted gray;
+    /*border-image: url('background.jpg');*/
+    height: 635px;
+    min-height: 600;
+   	background-size: 100% 100%;
+   	background-repeat: no-repeat;
+   	position: relative;
+   	/*box-shadow: 0 0 1000px;*/
+    background-image: url('background.jpg');
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+h1{
+	/*background-color: black;*/
+	border-radius: 0;
+}
+
+.hide-on-click{
+	display: none;
+}
+
+
+.view{
+	border: solid black 1px;  
+}
+
+.wrap{
+	height: 100%;
+	width: 100%;
+
+}
+
+.sizer{
+	height: 1000px;
+}
+
+
+.row-right{
+	float: right;
+	text-align: right;
+	border: solid 15px rgba(0, 0, 0, 0.1);
+	height: 100%;
+	width: 30%;
+	background-image: url('http://photoshoptutorials.ws/images/stories/WatercolorSplattersPhotoshopBrushes_E693/image_6.png');
+   	background-size: 20% 800% ;
+	border-radius: 2%;
+	box-shadow: 0 0 100px;
+	opacity: .7;
+}
+
+.row-left{
+	float: left;
+	text-align: left;
+	border: solid 15px rgba(0, 0, 0, 0.1);
+	height: 100%;
+	width: 30%;
+	background-image: url('http://photoshoptutorials.ws/images/stories/WatercolorSplattersPhotoshopBrushes_E693/image_6.png');
+   	background-size: 20% 800%;
+	border-radius: 2%;
+	box-shadow: -10 -10 100px;
+	opacity: .7;
+
+}
+
+.buttonDiv{
+	margin-top: 20%;
+	
+}
+
+.padder{
+	padding: 50px;
+
+}
+
+input{
+	color: white;
+	/*border: 10px;*/
+	box-shadow: 0 0 100px black;
+}
+
+
+.marge{
+	margin-left: 20px;
+}
+
+.under{
+	z-index: -1;
+	width: 40px;
+}
+
+.smaller{
+	font-size: 10pt;
+}
+
+button{
+	border-radius: 50%;
+	background-color: red;
+	border-style: groove;
+}
+
+.move-down{
+	margin-top: 100px;
+}
+
+.progressbar{
+	width: 29%;
+}
+
+.title-margin{
+	margin-right: 400px;
+}
+
+
+
+
+
+
+
+
+
+
