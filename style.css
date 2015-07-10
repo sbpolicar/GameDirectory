@@ -1,37 +1,46 @@
-html{
-	border: dotted 35px rgba(0, 0, 0, 0.5);
-	box-shadow: 0 0 -100px;
-   	background-image: url('background.jpg');
-   	background-size: 10% 250%;
-   	background-position: center;
-   	/*background-repeat: no-repeat;*/
-}
+
 
 
 body{
-	margin: 0 auto;
-    width: auto;
-    font-family: applegothic;
-    border: 5px dotted gray;
+	/*margin: 0 auto;*/
+    /*width: auto;*/
+    /*font-family: terminal;*/
+    /*border: 5px dotted gray;*/
     /*border-image: url('background.jpg');*/
-    height: 635px;
-    min-height: 600;
-   	background-size: 100% 100%;
+    /*height: 635px;*/
+    /*min-height: 600px;*/
+   	background-size: 200% 200%;
    	background-repeat: no-repeat;
+   	background-position: center;
    	position: relative;
-   	/*box-shadow: 0 0 1000px;*/
-    background-image: url('background.jpg');
+   	box-shadow: 0 0 1000px;
+    /*background-image: url('http://orig13.deviantart.net/9004/f/2008/031/d/f/dark_room_work_in_progress_by_damenfaltor.jpg');*/
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    
+   
+    
 }
+
+body:hover {
+	cursor: help;
+}
+
+
 
 h1{
 	/*background-color: black;*/
 	border-radius: 0;
+
+}
+
+h3{
+	 text-shadow: -1px 0 silver, 0 1px silver,
+      1px 0 silver, 0 -1px silver;
 }
 
 .hide-on-click{
@@ -43,14 +52,7 @@ h1{
 	border: solid black 1px;  
 }
 
-.wrap{
-	height: 100%;
-	width: 100%;
-
-}
-
-.sizer{
-	height: 1000px;
+	
 }
 
 
@@ -58,45 +60,40 @@ h1{
 	float: right;
 	text-align: right;
 	border: solid 15px rgba(0, 0, 0, 0.1);
-	height: 100%;
+	height: 80%;
 	width: 30%;
-	background-image: url('http://photoshoptutorials.ws/images/stories/WatercolorSplattersPhotoshopBrushes_E693/image_6.png');
-   	background-size: 20% 800% ;
+	/*background-image: url('img/robin.png');*/
+   	background-size: 150% 85%;
+   	background-position: center;
+   	background-repeat: no-repeat;
 	border-radius: 2%;
-	box-shadow: 0 0 100px;
-	opacity: .7;
+	/*box-shadow: 0 0 100px;*/
+	opacity: .4;
 }
 
 .row-left{
 	float: left;
 	text-align: left;
 	border: solid 15px rgba(0, 0, 0, 0.1);
-	height: 100%;
+	height: 80%;
 	width: 30%;
-	background-image: url('http://photoshoptutorials.ws/images/stories/WatercolorSplattersPhotoshopBrushes_E693/image_6.png');
-   	background-size: 20% 800%;
+	/*background-image: url('img/batgirl.png');*/
+   	background-size: 175% 100%;
+   	background-position: bottom;
+   	background-repeat: no-repeat;
 	border-radius: 2%;
-	box-shadow: -10 -10 100px;
-	opacity: .7;
+	/*box-shadow: -10 -10 100px;*/
+	opacity: .4;
 
 }
 
-.buttonDiv{
-	margin-top: 20%;
-	
-}
 
-.padder{
-	padding: 50px;
-
-}
-
-input{
+/*input{
 	color: white;
-	/*border: 10px;*/
+	border: 10px;
 	box-shadow: 0 0 100px black;
 }
-
+*/
 
 .marge{
 	margin-left: 20px;
@@ -104,34 +101,114 @@ input{
 
 .under{
 	z-index: -1;
-	width: 40px;
+	/*width: 40px;*/
 }
 
 .smaller{
 	font-size: 10pt;
 }
 
-button{
-	border-radius: 50%;
-	background-color: red;
-	border-style: groove;
-}
-
-.move-down{
-	margin-top: 100px;
-}
-
-.progressbar{
-	width: 29%;
-}
-
-.title-margin{
-	margin-right: 400px;
+input{
+	/*border-radius: 50%;*/
+	/*background-color: red;*/
+	/*border-style: groove gray 5px !important;*/
+	background-image: url('img/button.png');
+	background-position: center;
+	background-size: 100%;
+	margin-bottom: 20px;
+	border:0;
 }
 
 
+.list-group{
+	border:none;
+}
+
+ .list-group-item{
+ 	/*background-color: black;*/
+ 	background-image: url('http://www.artistchoicemetal.com/wp-content/upload/Satin-Brushed-Stainless-Steel-Sheet.jpg');
 
 
+ }
+
+ #riddle-header{
+ 	font-size: 15pt;
+ }
+
+ #accordian-riddle{
+ 	color: rgba(41, 152, 41, .1);
+
+ }
+
+
+ .computer{
+ 	/*background-image: url('http://homehdwallpaper.biz/wp-content/uploads/2015/01/wood-grain-texture-seamless.jpg');*/
+ 	background-image: url('http://solarelements.biz/wp-content/uploads/2014/07/wood-grain-texture-index-of-pictures.jpg');
+ 	background-position: center;
+ 	background-size: 200% 200%;
+ 	border-radius: 5%;
+ 	border: 2px;
+ 	height: auto;
+ 	padding: 30px;
+ 	/*z-index: -1;*/
+ 	/*position: absolute;*/
+	-webkit-transform: perspective(600px) rotateX(15deg);
+    -moz-transform: perspective(600px) rotateX(15deg);
+    -ms-transform: perspective(600px) rotateX(15deg);
+    -o-transform: perspective(600px) rotateX(15deg);
+    transform: perspective(600px) rotateX(15deg);
+ }
+
+
+ul{
+	border: groove gray 5px;
+	cursor: 
+}
+
+li{
+	color: #208B18;
+	font-family: "Lucida Console", Monaco, monospace;
+	border: groove gray 3px !important;
+}
+
+ul:hover {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.typed-cursor{
+    opacity: .5;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.riddle-button{
+	padding: 10px;
+	height: 40px;
+	width: 40px;
+	border-radius: 10%;
+}
+
+.inline	{
+	padding-top: 40px;
+	display: inline;
+}
 
 
 
