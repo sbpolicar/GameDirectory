@@ -22,6 +22,7 @@ body{
     -ms-user-select: none;
     user-select: none;
     /*padding: 10%;*/
+
     
    
     
@@ -187,12 +188,13 @@ input{
  	/*background-image: url('http://homehdwallpaper.biz/wp-content/uploads/2015/01/wood-grain-texture-seamless.jpg');*/
  	background-image: url('img/gcardback.png');
  	background-position: center;
- 	background-size: 120% 100%;
+ 	background-size: 240% 220%;
  	border-radius: 5%;
  	border: 2px;
- 	height: 1000px;
+ 	height: 1200px;
  	padding: 30px;
  	padding-top: 80px;
+ 	width: 700px;
  	/*z-index: -1;*/
  	/*position: absolute;*/
 	-webkit-transform: perspective(600px) rotateX(20deg);

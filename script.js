@@ -670,17 +670,17 @@ $('.riddle8').on('click', function(e) {
 
         $("#typed").typed({
           strings: ["?uestion #8!!! ^1000",
-            "The one who makes it, sells it. ^1000",
-            "The one who buys it, never uses it. ^1000",
-            "The one that uses it never knows that they used it.  ^1000",
-            "What am I?"
+            "Remove six letters from this sequence ^1000",
+            "to reveal a familiar English word.  ^1000",
+            // "The one that uses it never knows that they used it.  ^1000",
+            "BSAINXLEATNTEARS"
           ]
         });
 
-        $('#answer1').text('A coffin');
-        $('#answer2').text('A story');
-        $('#answer3').text('Insurance');
-        $('#answer4').text('Air');
+        $('#answer1').text('Bananas');
+        $('#answer2').text('Tears');
+        $('#answer3').text('Sanity');
+        $('#answer4').text('Eaten');
 
         $('#answer3, #answer2, #answer4').one('click', function() {
           if (count == 7) {
@@ -713,7 +713,7 @@ $('.riddle8').on('click', function(e) {
               // console.log(count)
             $("#typed").typed('reset');
             $("#typed").typed({
-              strings: ["Is my processor working correctly? ^1000",
+              strings: ["Is my processor ^1000",
                 "You might be smarter than you look. ^1000",
                 "Oh well. ^1000",
                 "OK HUMAN_ONE, the button.",
