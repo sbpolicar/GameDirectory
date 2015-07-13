@@ -14,13 +14,14 @@ body{
    	background-position: center;
    	position: relative;
    	box-shadow: 0 0 1000px;
-    /*background-image: url('http://orig13.deviantart.net/9004/f/2008/031/d/f/dark_room_work_in_progress_by_damenfaltor.jpg');*/
+    background-image: url('http://orig13.deviantart.net/9004/f/2008/031/d/f/dark_room_work_in_progress_by_damenfaltor.jpg');
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    /*padding: 10%;*/
     
    
     
@@ -52,39 +53,65 @@ h3{
 	border: solid black 1px;  
 }
 
-	
+#gameboard{
+	/*margin-top: %;*/
 }
-
+	
 
 .row-right{
-	float: right;
-	text-align: right;
-	border: solid 15px rgba(0, 0, 0, 0.1);
-	height: 80%;
-	width: 30%;
-	/*background-image: url('img/robin.png');*/
-   	background-size: 150% 85%;
-   	background-position: center;
-   	background-repeat: no-repeat;
-	border-radius: 2%;
-	/*box-shadow: 0 0 100px;*/
-	opacity: .4;
-}
-
-.row-left{
+	/*margin-right: 5px;*/
+	background-size: 200% 200%;
 	float: left;
 	text-align: left;
 	border: solid 15px rgba(0, 0, 0, 0.1);
-	height: 80%;
-	width: 30%;
+	height: 150px;
+	width: 150px;
+	background-image: url('http://fc09.deviantart.net/fs70/f/2011/347/1/4/terminal_by_ashm909-d4j1hel.jpg');
+
 	/*background-image: url('img/batgirl.png');*/
-   	background-size: 175% 100%;
+   	/*background-size: 175% 100%;*/
    	background-position: bottom;
    	background-repeat: no-repeat;
 	border-radius: 2%;
 	/*box-shadow: -10 -10 100px;*/
-	opacity: .4;
+	/*opacity: .4;*/
+		font-size: 80pt;
+	text-align: center;
+	box-shadow: inset 0 0 1em lightgreen, 0 0 1em lightgreen;
+	border-radius: 20%;
+	border: groove gray 3px;
+	/*background-image: url('http://fc09.deviantart.net/fs70/f/2011/347/1/4/terminal_by_ashm909-d4j1hel.jpg');*/
+ 	background-position: center;
+ 	color: rgba(51, 162, 51, .6);
 
+}
+
+.row-left{
+	/*margin-right: 5px;*/
+	background-size: 200% 200%;
+	float: left;
+	text-align: left;
+	border: solid 15px rgba(0, 0, 0, 0.1);
+	height: 150px;
+	width: 150px;
+	background-image: url('http://fc09.deviantart.net/fs70/f/2011/347/1/4/terminal_by_ashm909-d4j1hel.jpg');
+
+	/*background-image: url('img/batgirl.png');*/
+   	/*background-size: 175% 100%;*/
+   	background-position: bottom;
+   	background-repeat: no-repeat;
+	border-radius: 2%;
+	/*box-shadow: -10 -10 100px;*/
+	/*opacity: .4;*/
+		font-size: 80pt;
+	text-align: center;
+	box-shadow: inset 0 0 1em lightgreen, 0 0 1em lightgreen;
+	border-radius: 20%;
+	border: groove gray 3px;
+	/*background-image: url('http://fc09.deviantart.net/fs70/f/2011/347/1/4/terminal_by_ashm909-d4j1hel.jpg');*/
+ 	background-position: center;
+ 	color: rgba(51, 162, 51, .6);
+	
 }
 
 
@@ -96,7 +123,7 @@ h3{
 */
 
 .marge{
-	margin-left: 20px;
+	margin-left: 28%;
 }
 
 .under{
@@ -117,6 +144,10 @@ input{
 	background-size: 100%;
 	margin-bottom: 20px;
 	border:0;
+	padding: 10px;
+	height: 40px;
+	width: 40px;
+	border-radius: 10%;
 }
 
 
@@ -127,6 +158,9 @@ input{
  .list-group-item{
  	/*background-color: black;*/
  	background-image: url('http://www.artistchoicemetal.com/wp-content/upload/Satin-Brushed-Stainless-Steel-Sheet.jpg');
+	color: #208B18;
+	font-family: "Lucida Console", Monaco, monospace;
+	border: inset silver 3px !important;
 
 
  }
@@ -137,32 +171,41 @@ input{
 
  #accordian-riddle{
  	color: rgba(41, 152, 41, .1);
+ 	/*height: 1000px;*/
 
+ }
+
+ .riddle{
+ 	float: left;
+ 	text-align: center;
+ 	background-image: url('img/url.jpg');
+ 	word-wrap: break-word !important;
  }
 
 
  .computer{
  	/*background-image: url('http://homehdwallpaper.biz/wp-content/uploads/2015/01/wood-grain-texture-seamless.jpg');*/
- 	background-image: url('http://solarelements.biz/wp-content/uploads/2014/07/wood-grain-texture-index-of-pictures.jpg');
+ 	background-image: url('img/gcardback.png');
  	background-position: center;
- 	background-size: 200% 200%;
+ 	background-size: 120% 100%;
  	border-radius: 5%;
  	border: 2px;
- 	height: auto;
+ 	height: 1000px;
  	padding: 30px;
+ 	padding-top: 80px;
  	/*z-index: -1;*/
  	/*position: absolute;*/
-	-webkit-transform: perspective(600px) rotateX(15deg);
-    -moz-transform: perspective(600px) rotateX(15deg);
-    -ms-transform: perspective(600px) rotateX(15deg);
-    -o-transform: perspective(600px) rotateX(15deg);
-    transform: perspective(600px) rotateX(15deg);
+	-webkit-transform: perspective(600px) rotateX(20deg);
+    -moz-transform: perspective(600px) rotateX(20deg);
+    -ms-transform: perspective(600px) rotateX(20deg);
+    -o-transform: perspective(600px) rotateX(20deg);
+    transform: perspective(600px) rotateX(20deg);
  }
 
 
 ul{
-	border: groove gray 5px;
-	cursor: 
+	/*border: groove gray 5px;*/
+    border: inset silver 5px !important;
 }
 
 li{
@@ -199,16 +242,52 @@ ul:hover {
 }
 
 .riddle-button{
+	background-image: url('img/button.png');
+	background-position: center;
+	background-size: 120%;
+	margin-bottom: 20px;
+	border:0;
 	padding: 10px;
 	height: 40px;
 	width: 40px;
 	border-radius: 10%;
+	box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.4);
+
+
+}
+.riddle-button:hover{
+	box-shadow: inset 0 0 100px rgba(225, 100, 100, .5), 0 0 100px rgba(225, 0, 0, 1);
+
+}
+
+.riddle-button-active{
+	box-shadow: inset 0 0 100px rgba(225, 100, 100, .5), 0 0 100px rgba(225, 0, 0, 1);
+
 }
 
 .inline	{
 	padding-top: 40px;
 	display: inline;
 }
+
+.knobs{
+	width: 50%;
+}
+
+button{
+	background-image: url('img/button.png');
+	background-position: center;
+	background-size: 100%;
+	margin-bottom: 20px;
+	border:0;
+	padding: 10px;
+	height: 40px;
+	width: 40px;
+	border-radius: 10%;
+}
+
+
+
 
 
 

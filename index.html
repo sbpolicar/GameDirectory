@@ -15,11 +15,14 @@
 </head>
 
 <body class="pull-center text-center">
+	<!-- <div type="text" class="robin-score text-center"></div> -->
+	<!-- <input type="text" class="batgirl-score text-center"> -->
 
   <!-- <div class="buttonDiv text-center hide-on-click">
     <button type="submit" class="start-button padder">Start!</button>
   </div>
  -->
+ 
 
   <div id="gameboard" class="container wrap">
     <div class="row pull-center">
@@ -27,12 +30,21 @@
   <!--   <div class="pull-left progressbar progress-style"></div>
     <div class="pull-right progressbar progress-style"></div> -->
     </div>
-    <span class="row row-left pull-left">
-	</span>
     <div class="text-center col-md-5 computer pull-center marge view">
     <!-- <img src="title.png" class="text-center title-margin"> -->
+
+   <!--    <div id="accordion-hints" class="marge">
+  <h3>Hint</h3>
+  <div class="hints">
+    <span id="hint1" class="text-center pull-center">
+   	
+    </span>
+  </div>
+</div> -->
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/HAL9000.svg/2000px-HAL9000.svg.png" class="knobs">
   <div id="accordion-riddle" class="move-down">
-  <h3 id="riddle-header" class="text-center">RiddleBot 3000</h3>
+  <h3 id="riddle-header" class="text-center"></h3>
   <div class="riddle">
     <span id="typed">
 
@@ -41,39 +53,39 @@
   </div>
 
 </div>
-
-      <div id="accordion-hints" class="marge">
-  <h3>Hint</h3>
-  <div class="hints">
-    <span id="hint1" class="text-center pull-center">
-   	<!-- It can't be held. -->
-    </span>
-  </div>
-</div>
+<img src="img/knobs.png" class="knobs">
 <div class="row">
 
 
 
 </div>
   <ul id="multiple-choice" class="list-group padder">
-  	<li id="answer1" class="list-group-item"></li>
-  	<li id="answer2" class="list-group-item"></li>
-  	<li id="answer3" class="list-group-item"></li>
-  	<li id="answer4" class="list-group-item"></li>
+  	<li id="answer1" class="list-group-item">
+  	<span id="hint1" class="text-center pull-center">
+  	?
+    </span>
+  	</li>
+  	<li id="answer2" class="list-group-item">?</li>
+  	<li id="answer3" class="list-group-item">?</li>
+  	<li id="answer4" class="list-group-item">?</li>
   </ul>
-  <div class="riddle-switch riddle1 inline"><input type="submit" class="reset riddle-button " value="1"></div>
-  <div class="riddle-switch riddle2 inline"><input type="submit" class="reset riddle-button " value="2"></div>
-  <div class="riddle-switch riddle3 inline"><input type="submit" class="reset riddle-button " value="3"></div>
-  <div class="riddle-switch riddle4 inline"><input type="submit" class="reset riddle-button " value="4"></div>
-  <div class="riddle-switch riddle5 inline"><input type="submit" class="reset riddle-button " value="5"></div>
-  <div class="riddle-switch riddle6 inline"><input type="submit" class="reset riddle-button " value="6"></div>
-  <div class="riddle-switch riddle6 inline"><input type="submit" class="reset riddle-button " value="7"></div>
-  <div class="riddle-switch riddle6 inline"><input type="submit" class="reset riddle-button " value="8"></div>
+  <div class="list-group-item">
+  <div id="r1" class="riddle-switch inline"><button type="submit" id="riddle1" class="re.set riddle-button riddle1"></button></div>
+  <div id="r2" class="riddle-switch hide inline"><button type="submit" id="riddle2" class="re.set riddle-button riddle2"></button></div>
+  <div id="r3" class="riddle-switch hide inline"><button type="submit" id="riddle3" class="re.set riddle-button riddle3"></button></div>
+  <div id="r4" class="riddle-switch hide inline"><button type="submit" id="riddle4" class="re.set riddle-button riddle4"></button></div>
+  <div id="r5" class="riddle-switch hide inline"><button type="submit" id="riddle5" class="re.set riddle-button riddle5"></button></div>
+  <div id="r6" class="riddle-switch hide inline"><button type="submit" id="riddle6" class="re.set riddle-button riddle6"></button></div>
+  <div id="r7" class="riddle-switch hide inline"><button type="submit" id="riddle7" class="re.set riddle-button riddle7"></button></div>
+  <div id="r8" class="riddle-switch hide inline"><button type="submit" id="riddle8" class="re.set riddle-button riddle8"></button></div>
+  </div>
 
 
-    </div>
-    <span class="row row-right pull-right">		
+    <span class="p2-score row-left">
+	</span>
+    <span class="p1-score row-right pull-right">		
 		</span>
+    </div>
   </div>
 </body>
 
