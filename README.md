@@ -1,6 +1,7 @@
 # GameDirectory
 
 This is a Escape Room/Riddle game.
+http://sbpolicar.github.io/GameDirectory/
 
 It features Jquery for DOM manipulation, Jquery UI for formatting,
 Bootstrap for formatting, and Typed.JS for athstetic reasons.
