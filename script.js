@@ -481,7 +481,7 @@ $('.riddle4').on('click', function(e) {
             $("#typed").typed('reset');
             $("#typed").typed({
               strings: ["01100110 01110101 01100011 01101011 ^1000",
-                "You can't be googling these player-one. ^1000",
+                "You can't be googling these HUMAN_ONE. ^1000",
          	 	"err.... I mean....  ^1000",
                 "Congrats! ^1000",
                 "HUMAN_TWO! click the red button.",
