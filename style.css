@@ -8,12 +8,12 @@ body{
     /*border-image: url('background.jpg');*/
     /*height: 635px;*/
     /*min-height: 600px;*/
-   	background-size: 100% 100%;
+   	background-size: 200% 200%;
    	background-repeat: no-repeat;
    	background-position: center;
    	position: relative;
    	box-shadow: 0 0 1000px;
-    background-image: url('http://pre01.deviantart.net/0ede/th/pre/f/2011/073/5/9/tron_room_by_kevoniori-d3bml63.jpg');
+    background-image: url('http://orig04.deviantart.net/5063/f/2012/252/c/b/server_room_wallpaper_by_byobeach-d5e60yf.jpg');
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -186,6 +186,7 @@ input{
  .computer{
  	/*background-image: url('http://homehdwallpaper.biz/wp-content/uploads/2015/01/wood-grain-texture-seamless.jpg');*/
  	background-image: url('img/gcardback.png');
+ 	box-shadow: 100px 20px 200px rgba(0, 0, 0, .5);
  	background-position: center;
  	background-size: 240% 220%;
  	border-radius: 5%;
